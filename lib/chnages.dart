@@ -1,6 +1,9 @@
 class Changes {
   // main website url
   static String mainUrl = 'https://prof-food.com/';
+// West georgia pulse
+// www.westgeorgiapulse.com
+
 
   // home screen if double tap app should close but navigate to back
   // static String mainMenuUrl = 'https://nayabazar.pk/';

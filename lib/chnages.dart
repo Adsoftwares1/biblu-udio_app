@@ -1,6 +1,6 @@
 class Changes {
   // main website url
-  static String mainUrl = 'https://westgeorgiapulse.com/';
+  static String mainUrl = 'https://www.yoloridelondon.com';
 // West georgia pulse
 // www.westgeorgiapulse.com
 
@@ -9,7 +9,7 @@ class Changes {
   // static String mainMenuUrl = 'https://nayabazar.pk/';
 
   // if app start with this navigate else block or opens in external
-  static String startPointUrl = 'https://westgeorgiapulse.com/';
+  static String startPointUrl = 'https://www.yoloridelondon';
 
   // static String startPointUrl2 = 'https://h5.askgold';
 
@@ -23,15 +23,15 @@ class Changes {
   // static String blockNavigationUrl = 'https://www.youtube.com/';
 
   // Title at the Material App
-  static String AppTitle = 'West georgia pulse';
+  static String AppTitle = 'YoloRide';
 
   //one signal
   // static String oneSignalAppId = '5a7995b4-bc90-4634-b141-c87fbb335a42';
   // remove json file if you donot have one signal setup
 
   //1-  flutter pub global activate rename  //already activated just in case
-// rename setBundleId --targets android --value "com.nightcoders.westgeorgiapulse"
-// rename setAppName --targets ios,android --value "West georgia pulse"
+// rename setBundleId --targets ios,android --value "com.nightcoders.yoloride"
+// rename setAppName --targets ios,android --value "YoloRide"
 
   // image_path: "assets/images/icon.png"
   // flutter pub run flutter_launcher_icons

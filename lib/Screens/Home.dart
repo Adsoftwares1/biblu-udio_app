@@ -318,15 +318,15 @@ class _HomeState extends State<Home> {
             //   ),
             // ),
 
-            Visibility(
-              visible:
-                  _isLoading, // Show the progress indicator only when loading
-              child: Center(
-                  child: CircularProgressIndicator(
-                // value: _progress,
-                color: Colors.green,
-              )),
-            ),
+            // Visibility(
+            //   visible:
+            //       _isLoading, // Show the progress indicator only when loading
+            //   child: Center(
+            //       child: CircularProgressIndicator(
+            //     // value: _progress,
+            //     color: Colors.green,
+            //   )),
+            // ),
           ],
         ),
 

@@ -262,17 +262,15 @@ class _HomeState extends State<Home> {
                 var uri = navigationAction.request.url;
                 if (uri!.toString().startsWith(Changes.startPointUrl)) {
                   return NavigationActionPolicy.ALLOW;
+                } else if (uri!.toString().startsWith('https://taste')) {
+                  return NavigationActionPolicy.ALLOW;
+                } else if (uri!.toString().startsWith('https://facebook')) {
+                    setState(() {
+                      launchUrl(uri);
+                    _isLoading=false;
+                  });
+                  return NavigationActionPolicy.CANCEL;
                 }
-                // else if (uri!.toString().startsWith(Changes.startPointUrl2)) {
-                //   if (kDebugMode) {
-                //     print('opening phone $uri');
-                //   }
-                //   // _makePhoneCall(uri.toString());
-                //   // setState(() {
-                //   //   _isLoading=false;
-                //   // });
-                //   return NavigationActionPolicy.ALLOW;
-                // }
                 // else if (uri.toString().startsWith(Changes.openWhatsAppUrl)) {
                 //   if (kDebugMode) {
                 //     print('opening WhatsApp $uri');

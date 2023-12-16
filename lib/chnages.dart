@@ -1,15 +1,14 @@
 class Changes {
   // main website url
-  static String mainUrl = 'https://smartviewai.com/public/home';
+  static String mainUrl = 'https://km0.com/';
 // West georgia pulse
 // www.westgeorgiapulse.com
-
 
   // home screen if double tap app should close but navigate to back
   // static String mainMenuUrl = 'https://nayabazar.pk/';
 
   // if app start with this navigate else block or opens in external
-  static String startPointUrl = 'https://smartviewai';
+  static String startPointUrl = 'https://km0';
 
   // static String startPointUrl2 = 'https://h5.askgold';
 
@@ -23,7 +22,7 @@ class Changes {
   // static String blockNavigationUrl = 'https://www.youtube.com/';
 
   // Title at the Material App
-  static String AppTitle = 'SmartViewAi';
+  static String AppTitle = 'Km0';
 
   //one signal
   // static String oneSignalAppId = '5a7995b4-bc90-4634-b141-c87fbb335a42';
@@ -32,6 +31,8 @@ class Changes {
   //1-  flutter pub global activate rename  //already activated just in case
 // rename setBundleId --targets ios,android --value "com.nightcoders.smartviewai"
 // rename setAppName --targets ios,android --value "SmartViewAi"
+// to change JKS file
+// keytool -genkey -v -keystore %userprofile%\upload-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
 
   // image_path: "assets/images/icon.png"
   // flutter pub run flutter_launcher_icons

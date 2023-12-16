@@ -53,8 +53,10 @@ dependencies:
   # facebook_audience_network: ^1.0.1
 
   flutter_launcher_icons: ^0.11.0
-  # flutter_native_splash: ^2.2.17
-  rename: ^2.1.1
+  #flutter_native_splash: ^2.2.17
+  rename: ^3.0.1
+
+  
   # onesignal_flutter: ^3.5.1
 
 dev_dependencies:
@@ -64,15 +66,15 @@ dev_dependencies:
 flutter_icons: 
   android: true
   ios: true
-  image_path: "assets/images/icon.jpeg"
+  image_path: "assets/images/appiconsplash.png"
 
 
 flutter_native_splash:
-  # background_image: "assets/images/logo.png"
+  #background_image: "assets/images/app_splash.png"
   #image_path: "assets/images/splash.png"
   #image_mode: "cover"
-  color: "#ffffff"
-  image: 'assets/images/icon.jpeg'
+  color: "#008000"
+  image: 'assets/images/appiconsplash.png'
   android: true
   ios: true
 

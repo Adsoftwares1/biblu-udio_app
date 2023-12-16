@@ -1,5 +1,6 @@
 class Changes {
   // main website url
+  // adding new url
   static String mainUrl = 'https://km0.com/';
 // West georgia pulse
 // www.westgeorgiapulse.com

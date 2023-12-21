@@ -28,7 +28,7 @@
    <uses-permission android:name="android.permission.AUDIO_CAPTURE" /> -->
    <!-- Add more permission entries as needed -->
    <application
-        android:label="Km0"
+        android:label="Bibli@udio"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="true"

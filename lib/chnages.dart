@@ -1,7 +1,7 @@
 class Changes {
   // main website url
   // adding new url
-  static String mainUrl = 'https://km0.com/';
+  static String mainUrl = 'https://bibliaudio.com/';
 // West georgia pulse
 // www.westgeorgiapulse.com
 
@@ -9,7 +9,8 @@ class Changes {
   // static String mainMenuUrl = 'https://nayabazar.pk/';
 
   // if app start with this navigate else block or opens in external
-  static String startPointUrl = 'https://km0';
+  // add
+  static String startPointUrl = 'https://bibliaudio';
 
   // static String startPointUrl2 = 'https://h5.askgold';
 
@@ -23,7 +24,7 @@ class Changes {
   // static String blockNavigationUrl = 'https://www.youtube.com/';
 
   // Title at the Material App
-  static String AppTitle = 'Km0';
+  static String AppTitle = 'Bibli@udio';
 
   //one signal
   // static String oneSignalAppId = '5a7995b4-bc90-4634-b141-c87fbb335a42';
